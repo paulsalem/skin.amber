@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window type="dialog">
+  <defaultcontrol always="true">9000</defaultcontrol>
   <include>OSDFade</include>
   <controls>
-    <control type="group">
+    <control type="button" id="9000">
+	<include>HiddenButton</include>
+	<onleft>Dialog.Close(10142)</onleft>
+	<onright>Dialog.Close(10142)</onright>
+	<onup>Dialog.Close(10142)</onup>
+	<ondown>Dialog.Close(10142)</ondown>
+	<onback>Dialog.Close(10142)</onback>
+	<onclick>Dialog.Close(10142)</onclick>
+	<onfocus>noop</onfocus>
+	</control>
+	<control type="group">
       <posy>720</posy>
       <control type="image" description="Background">
         <posx>0</posx>
@@ -33,9 +44,9 @@
           </control>
           <control type="textbox">
             <posx>300</posx>
-            <posy>75</posy>
-            <width>1410</width>
-            <height>125</height>
+            <posy>64</posy>
+            <width>1406</width>
+            <height>150</height>
             <align>justify</align>
             <label>$INFO[VideoPlayer.Plot]</label>
             <font>InfoPlot</font>

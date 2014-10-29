@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-  <defaultcontrol always="false">602</defaultcontrol>
+  <defaultcontrol always="false">702</defaultcontrol>
   <allowoverlay>yes</allowoverlay>
   <zorder>2</zorder>
   <include>OSDFade</include>
@@ -90,7 +90,8 @@
           <onleft>601</onleft>
           <onright>603</onright>
           <ondown>702</ondown>
-          <onup>noop</onup>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
           <onclick>PlayerControl(Play)</onclick>
         </control>
         <control type="button" id="603">
@@ -104,7 +105,8 @@
           <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
           <onleft>602</onleft>
           <onright>604</onright>
-          <onup>noop</onup>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
           <ondown>702</ondown>
           <onclick>PlayerControl(Stop)</onclick>
         </control>
@@ -192,7 +194,8 @@
           <onleft>601</onleft>
           <onright>603</onright>
           <ondown>701</ondown>
-          <onup>noop</onup>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
           <onclick>PlayerControl(Play)</onclick>
         </control>
         <control type="button" id="603">
@@ -206,7 +209,8 @@
           <texturenofocus>VideoOSD/OSDStopNF.png</texturenofocus>
           <onleft>602</onleft>
           <onright>604</onright>
-          <onup>noop</onup>
+          <onup>Close</onup>
+          <onup>XBMC.ActivateWindow(142)</onup>
           <ondown>701</ondown>
           <onclick>PlayerControl(Stop)</onclick>
         </control>

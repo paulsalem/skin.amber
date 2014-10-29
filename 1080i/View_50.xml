@@ -16,6 +16,7 @@
         <height>72</height>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
+		<font>Details</font>
       </control>
       <control type="label">
         <posx>1120</posx>
@@ -23,7 +24,7 @@
         <width>400</width>
         <height>72</height>
         <scroll>false</scroll>
-        <font>ListDetails</font>
+        <font>Details</font>
         <textcolor>Grey</textcolor>
         <align>right</align>
         <label>$INFO[ListItem.Label2]</label>
@@ -52,6 +53,7 @@
         <height>72</height>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
+		<font>Details</font>
       </control>
       <control type="label">
         <posx>1120</posx>
@@ -59,7 +61,7 @@
         <width>400</width>
         <height>72</height>
         <scroll>false</scroll>
-        <font>ListDetails</font>
+        <font>Details</font>
         <textcolor>Grey2</textcolor>
         <align>right</align>
         <label>$INFO[ListItem.Label2]</label>
@@ -80,6 +82,7 @@
         <width>520</width>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
+		<font>Details</font>
       </control>
       <include>ListWatchedOverlay</include>
     </itemlayout>
@@ -102,6 +105,7 @@
         <height>72</height>
         <width>520</width>
         <label>$INFO[ListItem.Label]</label>
+		<font>Details</font>
       </control>
       <include>ListWatchedOverlay</include>
     </focusedlayout>
@@ -118,6 +122,7 @@
         <width>920</width>
         <scroll>false</scroll>
         <label>$INFO[ListItem.Label]</label>
+		 <font>Details</font>
       </control>
       <include>ListWatchedOverlay</include>
     </itemlayout>
@@ -140,6 +145,7 @@
         <height>72</height>
         <width>920</width>
         <label>$INFO[ListItem.Label]</label>
+		 <font>Details</font>
       </control>
       <include>ListWatchedOverlay</include>
     </focusedlayout>
@@ -310,14 +316,14 @@
               <posy>150</posy>
               <height>33</height>
               <width>708</width>
-              <font>InfoDetails</font>
+              <font>Details</font>
               <label>$VAR[Details]</label>
             </control>
             <control type="textbox" description="Plot51">
               <posx>0</posx>
               <posy>198</posy>
               <width>708</width>
-              <height>126</height>
+              <height>220</height>
               <label>$VAR[Plots]</label>
             </control>
             <control type="group" description="Flags">

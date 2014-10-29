@@ -18,15 +18,18 @@
         <visible>true</visible>
       </control>
       <control type="multiimage" description="Slideshow">
-        <visible>Skin.HasSetting(MusicPlayingFanart) + !IsEmpty(Window(Visualisation).Property(ArtistSlideshow))</visible>
+        <visible>System.HasAddon(script.artistslideshow) + !IsEmpty(Window(Visualisation).Property(ArtistSlideshow))</visible>
         <include>Dimensions_Fullscreen</include>
         <imagepath background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
         <aspectratio aligny="top">scale</aspectratio>
-        <timeperimage>14000</timeperimage>
-        <fadetime>10000</fadetime>
+        <timeperimage>20000</timeperimage>
+        <fadetime>5000</fadetime>
         <randomize>true</randomize>
         <animation effect="fade" start="0" end="70" time="300">Visible</animation>
         <animation effect="fade" start="70" end="0" time="200">Hidden</animation>
+	<animation effect="zoom" start="110" end="130" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="System.HasAddon(script.artistslideshow)">Conditional</animation>
+     <animation effect="slide" start="-30,-30" end="30,30" time="6000" tween="sine" easing="inout" pulse="true" condition="System.HasAddon(script.artistslideshow)">Conditional</animation>
+        
         <animation type="Conditional" condition="true">
           <effect type="fade" start="0" end="70" time="0" />
         </animation>

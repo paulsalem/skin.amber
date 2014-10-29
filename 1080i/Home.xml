@@ -46,10 +46,28 @@
           <height>90</height>
           <texture flipx="true" border="100,0,0,0">common/TimePanel.png</texture>
         </control>
+		 <control type="image">
+        <visible>[Window.IsActive(home) | Window.IsActive(weather)]</visible>
+        <include>VisibleFadeEffect</include>
+        <posx>-50</posx>
+          <posy>1044</posy>
+       <width>2020</width>
+        <height>90</height>
+        <texture border="100,0,0,0" flipy="true">common/TimePanel.png</texture>
+      </control>
+	  <control type="image">
+        <visible>[Window.IsActive(home) | Window.IsActive(weather)]</visible>
+        <include>VisibleFadeEffect</include>
+        <posx>-50</posx>
+          <posy>1044</posy>
+       <width>2020</width>
+        <height>90</height>
+        <texture border="100,0,0,0" flipy="true">common/TimePanel.png</texture>
+      </control>
         <control type="rss" description="RSS Feed">
           <posx>21</posx>
-          <posy>1044</posy>
-          <width>480</width>
+          <posy>1040</posy>
+          <width>1990</width>
           <height>90</height>
           <font>rss</font>
           <urlset>1</urlset>
@@ -59,144 +77,6 @@
           <textcolor>Grey</textcolor>
         </control>
       </control>
-      <!--<weather on horizontal home screen-->
-    <control type="group">
-            <visible>!IsEmpty(Weather.Plugin) + !Skin.HasSetting(VerticalHome)</visible>
-            <include>WeatherAni0</include>
-        <control type="image">
-            <description>Weather image</description>
-            <posx>0</posx>
-            <posy>0</posy>
-            <width>80</width>
-            <height>80</height>
-            <aspectratio>keep</aspectratio>
-            <texture>$INFO[Weather.Conditions]</texture>
-        </control>
-        <control type="label">
-            <description>location label</description>
-            <posx>85</posx>
-            <posy>10</posy>
-            <width>500</width>
-            <height>10</height>
-            <align>left</align>
-            <aligny>center</aligny>
-            <font>RSS</font>
-            <textcolor>Orange</textcolor>
-            <shadowcolor>black</shadowcolor>
-            <label>$INFO[Window(Weather).Property(Location)]</label>
-        </control>
-        <control type="grouplist">
-                <posx>85</posx>
-                <posy>40</posy>
-                <width>1000</width>
-                <height>30</height>
-                <orientation>horizontal</orientation>
-                <align>left</align>
-                <itemgap>0</itemgap>
-            <control type="label">
-                <description>Temp label</description>
-                <width min="0" max="300">auto</width>
-                <height>20</height>
-                <align>left</align>
-                <aligny>center</aligny>
-                <font>details</font>
-                <textcolor>white</textcolor>
-                <shadowcolor>black</shadowcolor>
-                <label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
-            </control>
-            <control type="label">
-                <description>Temp Units</description>
-                <width min="0" max="100">auto</width>
-                <height>15</height>
-                <font>rss</font>
-                <aligny>center</aligny>
-                <label>$INFO[System.TemperatureUnits]</label>
-                <textcolor>white</textcolor>
-                <shadowcolor>black</shadowcolor>
-                <visible>!IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
-            </control>
-            <control type="label">
-                <description>Conditions Label</description>
-                <width>500</width>
-                <height>22</height>
-                <font>font10</font>
-                <aligny>center</aligny>
-                <label>$INFO[Window(Weather).Property(Current.Condition),  ]</label>
-                <textcolor>grey2</textcolor>
-                <shadowcolor>black</shadowcolor>
-        </control>
-            </control>
-    </control>
-        <control type="group" description="Weather Info">
-			<posx>1500</posx>
-			<posy>60</posy>
-			<visible>!IsEmpty(Weather.Plugin) + Skin.HasSetting(VerticalHome) + Container(300).HasFocus(15)</visible>
-            <include>WeatherAni0</include>
-            <control type="image" description="BG">
-                <posx>0</posx>
-                <posy>0</posy>
-                <width>414</width>
-                <height>84</height>
-                <texture border="6">img/BlackRounded.png</texture>
-            </control>
-			<control type="image">
-                <description>Weather image</description>
-                <posx>20</posx>
-                <posy>0</posy>
-                <width>80</width>
-                <height>80</height>
-                <aspectratio>keep</aspectratio>
-                <texture>$INFO[Weather.Conditions]</texture>
-            </control>
-            <control type="label">
-                <description>location label</description>
-                <posx>105</posx>
-                <posy>20</posy>
-                <width>500</width>
-                <height>10</height>
-                <align>left</align>
-                <aligny>center</aligny>
-                <font>RSS</font>
-                <textcolor>Orange</textcolor>
-                <label>$INFO[Window(Weather).Property(Location)]</label>
-            </control>
-            <control type="grouplist">
-                <posx>105</posx>
-                <posy>45</posy>
-                <width>1000</width>
-                <height>30</height>
-                <orientation>horizontal</orientation>
-                <align>left</align>
-                <itemgap>0</itemgap>
-                <control type="label">
-                    <description>Temp label</description>
-                    <width min="0" max="300">auto</width>
-                    <height>20</height>
-                    <align>left</align>
-                    <aligny>center</aligny>
-                    <font>Details</font>
-                    <label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
-                </control>
-                <control type="label">
-                    <description>Temp Units</description>
-                    <width min="0" max="100">auto</width>
-                    <height>15</height>
-                    <font>rss</font>
-                    <aligny>center</aligny>
-                    <label>$INFO[System.TemperatureUnits]</label>
-                    <visible>!IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
-                </control>
-                <control type="label">
-                    <description>Conditions Label</description>
-                    <width>500</width>
-                    <height>28</height>
-                    <font>ItemCount</font>
-                    <aligny>center</aligny>
-                    <label>$INFO[Window(Weather).Property(Current.Condition),    ]</label>
-                    
-                </control>
-            </control>
-        </control>
       <include>Time</include>
       <control type="group">
         <include condition="Skin.HasSetting(Show_Library_Count)">Library_Count</include>
@@ -214,7 +94,19 @@
             <align>center</align>
 			
 		<label>20037</label>
+		
 	  </control>
+	  <control type="image">
+        <description>Weather conditions</description>
+        <posx>1870</posx>
+        <posy>-4</posy>
+        <width>48</width>
+        <height>48</height>
+        <texture>$INFO[Weather.Conditions]</texture>
+        <colordiffuse>98FFFFFFF</colordiffuse>
+        <visible effect="fade" time="250">Weather.IsFetched</visible>
+    </control>
+
 	  <control type="textbox" description="Plot">
 		<posx>-500</posx>
 		<posy>216</posy>
@@ -223,7 +115,9 @@
 		<align>justify</align>
 		<label>$INFO[Container(311).ListItem.Property(Plot)]</label>
 	  </control>
-	  </control>
+	  
+	</control>
+	  
 	  <include condition="Skin.HasSetting(holiday)">Holiday</include>
   </controls>
 </window>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <fonts>
-  <fontset id="Default" unicode="true" idloc="31390">
+  <fontset id="Default" idloc="31390" unicode="true">
     <font>
       <name>MainMenu</name>
       <filename>BebasNeue.ttf</filename>
@@ -34,7 +33,8 @@
     <font>
       <name>SysInfo</name>
       <filename>UbuntuCondensed.ttf</filename>
-      <size>24</size>
+      <size>27</size>
+      <style>Bold</style>
     </font>
     <font>
       <name>ExtProgressBar</name>
@@ -49,27 +49,27 @@
     <font>
       <name>GridItems</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>22</size>
+      <size>32</size>
     </font>
     <font>
       <name>Progress</name>
       <filename>BebasNeue.ttf</filename>
-      <size>46</size>
+      <size>55</size>
     </font>
     <font>
       <name>rss</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>23</size>
+      <size>37</size>
     </font>
     <font>
       <name>info</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>29</size>
+      <size>37</size>
     </font>
     <font>
       <name>Year</name>
       <filename>BebasNeue.ttf</filename>
-      <size>32</size>
+      <size>34</size>
     </font>
     <font>
       <name>Slider</name>
@@ -79,79 +79,84 @@
     <font>
       <name>Flags</name>
       <filename>BebasNeue.ttf</filename>
-      <size>28</size>
+      <size>32</size>
     </font>
     <font>
       <name>ItemCount</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>22</size>
+      <size>32</size>
     </font>
     <font>
       <name>Sublist</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>30</size>
+      <size>41</size>
     </font>
     <font>
       <name>MainLabelBig</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>39</size>
+      <size>41</size>
       <style>bold</style>
     </font>
     <font>
       <name>MainLabelBigTitle</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>44</size>
+      <size>46</size>
       <style>bold</style>
     </font>
     <font>
       <name>InfoTitle</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>36</size>
+      <size>41</size>
       <style>bold</style>
     </font>
     <font>
       <name>ListDetails</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>28</size>
+      <size>41</size>
     </font>
     <font>
       <name>Details</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>30</size>
-    </font>
-	<font>
-      <name>InfoDetails</name>
-      <filename>UbuntuCaps.ttf</filename>
-      <size>31</size>
+      <size>46</size>
     </font>
     <font>
       <name>font13</name>
       <filename>Arial.ttf</filename>
-      <size>24</size>
+      <size>28</size>
       <color>White</color>
     </font>
     <font>
       <name>InfoPlot</name>
       <filename>Default.ttf</filename>
       <style>bold</style>
-      <size>28</size>
+      <size>34</size>
       <linespacing>1.0</linespacing>
 	  <aspect>1.0</aspect>
     </font>
     <font>
       <name>InfoPath</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>22</size>
+      <size>25</size>
     </font>
     <font>
       <name>size22</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>34</size>
+      <size>36</size>
     </font>
     <font>
       <name>ViewMenu</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>30</size>
+      <size>37</size>
+    </font>
+    <font>
+      <name>Label2</name>
+      <filename>UbuntuCaps.ttf</filename>
+      <size>35</size>
+    </font>
+    <font>
+      <name>52Label2</name>
+      <filename>UbuntuCaps.ttf</filename>
+      <size>32</size>
     </font>
     <font>
       <name>FManager</name>
@@ -166,7 +171,7 @@
     <font>
       <name>SetContent</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>26</size>
+      <size>32</size>
     </font>
     <font>
       <name>Keyboard</name>
@@ -176,189 +181,100 @@
     <font>
       <name>size24B</name>
       <filename>UbuntuCaps.ttf</filename>
-      <size>36</size>
+      <size>41</size>
     </font>
-  </fontset>
-  <fontset id="Default no caps" unicode="true" idloc="31389">
-    <font>
-      <name>MainMenu</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>88</size>
-    </font>
-    <font>
-      <name>MainMenuVerticalFO</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>74</size>
-    </font>
-    <font>
-      <name>MainMenuVertical</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>48</size>
-    </font>
-    <font>
-      <name>WeatherTitle</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>45</size>
-    </font>
-    <font>
-      <name>Logo</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>60</size>
-    </font>
-    <font>
-      <name>Volume</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>42</size>
-    </font>
-    <font>
-      <name>SysInfo</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>28</size>
-    </font>
-    <font>
-      <name>ExtProgressBar</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>21</size>
-    </font>
-    <font>
-      <name>ExtProgressBar2</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>22</size>
-    </font>
-    <font>
-      <name>GridItems</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>25</size>
-    </font>
-    <font>
-      <name>Progress</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>46</size>
-    </font>
-    <font>
-      <name>rss</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>26</size>
-    </font>
-    <font>
-      <name>info</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>30</size>
-    </font>
-    <font>
-      <name>Year</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>32</size>
-    </font>
-    <font>
-      <name>Slider</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>32</size>
-    </font>
-    <font>
-      <name>Flags</name>
-      <filename>BebasNeue.ttf</filename>
-      <size>28</size>
-    </font>
-    <font>
-      <name>ItemCount</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>25</size>
-    </font>
-    <font>
-      <name>Sublist</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>33</size>
-    </font>
-    <font>
-      <name>MainLabelBig</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>42</size>
-      <style>bold</style>
-    </font>
-    <font>
-      <name>MainLabelBigTitle</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>47</size>
-      <style>bold</style>
-    </font>
-    <font>
-      <name>InfoTitle</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>39</size>
-      <style>bold</style>
-    </font>
-    <font>
-      <name>ListDetails</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>30</size>
-    </font>
-    <font>
-      <name>Details</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>32</size>
-    </font>
-    <font>
-      <name>InfoDetails</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>34</size>
-    </font>
-	<font>
-      <name>font13</name>
-      <filename>Arial.ttf</filename>
-      <size>24</size>
-      <color>White</color>
-    </font>
-    <font>
-      <name>InfoPlot</name>
-      <filename>Default.ttf</filename>
-      <style>bold</style>
-      <size>28</size>
-      <linespacing>1.0</linespacing>
-	  <aspect>1.0</aspect>
-    </font>
-    <font>
-      <name>InfoPath</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>25</size>
-    </font>
-    <font>
-      <name>size22</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>36</size>
-    </font>
-    <font>
-      <name>ViewMenu</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>33</size>
-    </font>
-    <font>
-      <name>FManager</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>29</size>
-    </font>
-    <font>
-      <name>FManager2</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>26</size>
-    </font>
-    <font>
-      <name>SetContent</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>29</size>
-    </font>
-    <font>
-      <name>Keyboard</name>
-      <filename>Arial.ttf</filename>
-      <size>33</size>
-    </font>
-    <font>
-      <name>size24B</name>
-      <filename>UbuntuCondensed.ttf</filename>
-      <size>39</size>
-    </font>
-  </fontset>
-  <fontset id="Arial" unicode="true" idloc="31392">
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+	</fontset>
+  <fontset id="Arial" idloc="31392" unicode="true">
     <font>
       <name>MainMenu</name>
       <filename>Arial.ttf</filename>
@@ -405,7 +321,7 @@
       <name>SysInfo</name>
       <filename>Arial.ttf</filename>
       <size>27</size>
-      <style>uppercase</style>
+      <style>Bold uppercase</style>
       <aspect>0.80</aspect>
     </font>
     <font>
@@ -519,13 +435,6 @@
       <aspect>0.80</aspect>
       <style>uppercase</style>
     </font>
-	<font>
-      <name>InfoDetails</name>
-      <filename>Arial.ttf</filename>
-      <size>32</size>
-      <aspect>0.80</aspect>
-      <style>uppercase</style>
-    </font>
     <font>
       <name>font13</name>
       <filename>Arial.ttf</filename>
@@ -561,6 +470,20 @@
       <style>uppercase</style>
     </font>
     <font>
+      <name>Label2</name>
+      <filename>Arial.ttf</filename>
+      <size>28</size>
+      <aspect>0.80</aspect>
+      <style>uppercase</style>
+    </font>
+    <font>
+      <name>52Label2</name>
+      <filename>Arial.ttf</filename>
+      <size>25</size>
+      <aspect>0.80</aspect>
+      <style>uppercase</style>
+    </font>
+    <font>
       <name>FManager</name>
       <filename>Arial.ttf</filename>
       <size>26</size>
@@ -589,14 +512,104 @@
       <aspect>0.80</aspect>
       <style>uppercase</style>
     </font>
-  </fontset>
-  <fontset id="Arial nocaps" unicode="true" idloc="31391">
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+	</fontset>
+  <fontset id="Arial nocaps" idloc="31391" unicode="true">
     <font>
       <name>MainMenu</name>
       <filename>Arial.ttf</filename>
       <size>60</size>
-      <aspect>1.0</aspect>
-      <style>normal</style>
+      <aspect>0.805</aspect>
+      <style>bold</style>
     </font>
     <font>
       <name>MainMenuVerticalFO</name>
@@ -628,27 +641,28 @@
     <font>
       <name>Volume</name>
       <filename>Arial.ttf</filename>
-      <size>50</size>
-      <aspect>0.9</aspect>
+      <size>42</size>
+      <aspect>0.80</aspect>
       <style>uppercase</style>
     </font>
     <font>
       <name>SysInfo</name>
       <filename>Arial.ttf</filename>
       <size>27</size>
+      <style>Bold</style>
       <aspect>0.80</aspect>
     </font>
     <font>
       <name>ExtProgressBar</name>
       <filename>Arial.ttf</filename>
-      <size>23</size>
-      <aspect>1.0</aspect>
+      <size>18</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>ExtProgressBar2</name>
       <filename>Arial.ttf</filename>
-      <size>23</size>
-      <aspect>1.0</aspect>
+      <size>19</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>GridItems</name>
@@ -666,13 +680,13 @@
       <name>rss</name>
       <filename>Arial.ttf</filename>
       <size>23</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>info</name>
       <filename>Arial.ttf</filename>
-      <size>30</size>
-      <aspect>1.0</aspect>
+      <size>28</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>Year</name>
@@ -691,20 +705,20 @@
       <name>Flags</name>
       <filename>Arial.ttf</filename>
       <size>28</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
       <style>uppercase</style>
     </font>
     <font>
       <name>ItemCount</name>
       <filename>Arial.ttf</filename>
-      <size>24</size>
-      <aspect>1.0</aspect>
+      <size>22</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>Sublist</name>
       <filename>Arial.ttf</filename>
       <size>30</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>MainLabelBig</name>
@@ -725,25 +739,19 @@
       <filename>Arial.ttf</filename>
       <size>36</size>
       <style>bold</style>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>ListDetails</name>
       <filename>Arial.ttf</filename>
-      <size>28</size>
-      <aspect>1.0</aspect>
+      <size>27</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>Details</name>
       <filename>Arial.ttf</filename>
-      <size>28</size>
-      <aspect>1.0</aspect>
-    </font>
-	<font>
-      <name>InfoDetails</name>
-      <filename>Arial.ttf</filename>
       <size>30</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>font13</name>
@@ -754,54 +762,156 @@
     <font>
       <name>InfoPlot</name>
       <filename>Arial.ttf</filename>
-      <size>31</size>
-      <aspect>1.0</aspect>
-	  <linespacing>1.0</linespacing>
+      <size>28</size>
+      <aspect>0.96</aspect>
+	  <linespacing>1.28</linespacing>
     </font>
     <font>
       <name>InfoPath</name>
       <filename>Arial.ttf</filename>
-      <size>27</size>
-      <aspect>1.0</aspect>
+      <size>22</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>size22</name>
       <filename>Arial.ttf</filename>
       <size>33</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>ViewMenu</name>
       <filename>Arial.ttf</filename>
       <size>30</size>
-      <aspect>1.0</aspect>
+      <aspect>0.80</aspect>
+    </font>
+    <font>
+      <name>Label2</name>
+      <filename>Arial.ttf</filename>
+      <size>28</size>
+      <aspect>0.80</aspect>
+    </font>
+    <font>
+      <name>52Label2</name>
+      <filename>Arial.ttf</filename>
+      <size>25</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>FManager</name>
       <filename>Arial.ttf</filename>
-      <size>30</size>
+      <size>26</size>
     </font>
     <font>
       <name>FManager2</name>
       <filename>Arial.ttf</filename>
-      <size>25</size>
+      <size>22</size>
     </font>
     <font>
       <name>SetContent</name>
       <filename>Arial.ttf</filename>
-      <size>30</size>
-      <aspect>1.0</aspect>
+      <size>26</size>
+      <aspect>0.80</aspect>
     </font>
     <font>
       <name>Keyboard</name>
       <filename>Arial.ttf</filename>
-      <size>33</size>
+      <size>30</size>
     </font>
     <font>
       <name>size24B</name>
       <filename>Arial.ttf</filename>
-      <size>35</size>
-      <aspect>1.0</aspect>
+      <size>36</size>
+      <aspect>0.80</aspect>
     </font>
-  </fontset>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
+	</fontset>
 </fonts>
