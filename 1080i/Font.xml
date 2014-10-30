@@ -273,6 +273,51 @@
 			<filename>spotimc.ttf</filename>
 			<size>90</size>
 		</font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
 	</fontset>
   <fontset id="Arial" idloc="31392" unicode="true">
     <font>
@@ -602,6 +647,51 @@
 			<filename>spotimc.ttf</filename>
 			<size>90</size>
 		</font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
 	</fontset>
   <fontset id="Arial nocaps" idloc="31391" unicode="true">
     <font>
@@ -823,6 +913,51 @@
       <size>36</size>
       <aspect>0.80</aspect>
     </font>
+		<font>
+			<name>spotimc_font14</name>
+			<filename>spotimc.ttf</filename>
+			<size>21</size>
+		</font>
+		<font>
+			<name>spotimc_font16</name>
+			<filename>spotimc.ttf</filename>
+			<size>24</size>
+		</font>
+		<font>
+			<name>spotimc_font18</name>
+			<filename>spotimc.ttf</filename>
+			<size>27</size>
+		</font>
+		<font>
+			<name>spotimc_font20</name>
+			<filename>spotimc.ttf</filename>
+			<size>30</size>
+		</font>
+		<font>
+			<name>spotimc_font22</name>
+			<filename>spotimc.ttf</filename>
+			<size>33</size>
+		</font>
+		<font>
+			<name>spotimc_font24</name>
+			<filename>spotimc.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>spotimc_font32</name>
+			<filename>spotimc.ttf</filename>
+			<size>48</size>
+		</font>
+		<font>
+			<name>spotimc_font48</name>
+			<filename>spotimc.ttf</filename>
+			<size>72</size>
+		</font>
+		<font>
+			<name>spotimc_font60</name>
+			<filename>spotimc.ttf</filename>
+			<size>90</size>
+		</font>
 		<font>
 			<name>spotimc_font14</name>
 			<filename>spotimc.ttf</filename>

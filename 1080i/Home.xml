@@ -49,25 +49,25 @@
 		 <control type="image">
         <visible>[Window.IsActive(home) | Window.IsActive(weather)]</visible>
         <include>VisibleFadeEffect</include>
-        <posx>-50</posx>
+        <posx>-30</posx>
           <posy>1044</posy>
-       <width>2020</width>
+       <width>1956</width>
         <height>90</height>
         <texture border="100,0,0,0" flipy="true">common/TimePanel.png</texture>
       </control>
 	  <control type="image">
         <visible>[Window.IsActive(home) | Window.IsActive(weather)]</visible>
         <include>VisibleFadeEffect</include>
-        <posx>-50</posx>
+        <posx>-30</posx>
           <posy>1044</posy>
-       <width>2020</width>
+       <width>1956</width>
         <height>90</height>
         <texture border="100,0,0,0" flipy="true">common/TimePanel.png</texture>
       </control>
         <control type="rss" description="RSS Feed">
-          <posx>21</posx>
+          <posx>46</posx>
           <posy>1040</posy>
-          <width>1990</width>
+          <width>1870</width>
           <height>90</height>
           <font>rss</font>
           <urlset>1</urlset>
