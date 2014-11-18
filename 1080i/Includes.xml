@@ -226,7 +226,7 @@
           <titlecolor>White2</titlecolor>
           <headlinecolor>White2</headlinecolor>
           <textcolor>Grey</textcolor>
-		    <visible>!Window.IsActive(home)</visible>
+		    <visible>!Window.IsActive(home) +  !Player.Playing </visible>
       </control>
 	  <control type="image">
         <description>Weather conditions</description>
